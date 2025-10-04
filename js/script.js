@@ -5,7 +5,7 @@ let secItem = document.querySelector("#sec");
 
 
 let countdown = () => {
-    let futureDate = new Date("1 Jan 2027");
+    let futureDate = new Date("1 Jan 2026");
     let currentDate = new Date();
     let myDate = futureDate - currentDate;
     //console.log(myDate);
@@ -26,4 +26,5 @@ countdown()
 
 
 setInterval(countdown, 1000)
+
 
